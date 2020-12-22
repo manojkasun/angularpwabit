@@ -1,0 +1,42 @@
+{
+  "name": "@bit/arnobornman.demo-angular-controls.card",
+  "version": "1.0.6",
+  "homepage": "https://bit.dev/arnobornman/demo-angular-controls/card",
+  "main": "dist/card/bundles/bit-arnobornman.demo-angular-controls.card.umd.js",
+  "componentId": {
+    "scope": "arnobornman.demo-angular-controls",
+    "name": "card",
+    "version": "1.0.6"
+  },
+  "dependencies": {
+    "@angular/core": "^8.2.6",
+    "@angular/common": "^8.2.6",
+    "@angular/material": "^8.2.0",
+    "jest-preset-angular": "7.0.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015_ivy_ngcc": "__ivy_ngcc__/dist/card/fesm2015/bit-arnobornman.demo-angular-controls.card.js",
+  "es2015": "dist\\card\\fesm2015\\bit-arnobornman.demo-angular-controls.card.js",
+  "esm5": "dist\\card\\esm5\\bit-arnobornman.demo-angular-controls.card.js",
+  "esm2015": "dist\\card\\esm2015\\bit-arnobornman.demo-angular-controls.card.js",
+  "fesm5": "dist\\card\\fesm5\\bit-arnobornman.demo-angular-controls.card.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/dist/card/fesm2015/bit-arnobornman.demo-angular-controls.card.js",
+  "fesm2015": "dist\\card\\fesm2015\\bit-arnobornman.demo-angular-controls.card.js",
+  "module": "dist\\card\\fesm5\\bit-arnobornman.demo-angular-controls.card.js",
+  "typings": "dist\\card\\bit-arnobornman.demo-angular-controls.card.d.ts",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.1.6",
+    "fesm2015": "10.1.6",
+    "typings": "10.1.6"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

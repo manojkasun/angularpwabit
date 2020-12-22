@@ -1,0 +1,29 @@
+{
+  "name": "@bit/heyitsgeo.ng-semantic-ui.button",
+  "version": "0.0.1-0",
+  "main": "bundles/bit-button.umd.js",
+  "componentId": {
+    "name": "button"
+  },
+  "dependencies": {
+    "@angular/core": "~10.1.6",
+    "@angular/common": "~10.1.6",
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@10.1.5"
+    }
+  },
+  "module": "fesm5/bit-button.js",
+  "es2015": "fesm2015/bit-button.js",
+  "esm5": "esm5/bit-button.js",
+  "esm2015": "esm2015/bit-button.js",
+  "fesm5": "fesm5/bit-button.js",
+  "fesm2015": "fesm2015/bit-button.js",
+  "typings": "bit-button.d.ts",
+  "metadata": "bit-button.metadata.json",
+  "sideEffects": false
+}

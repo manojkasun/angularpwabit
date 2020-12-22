@@ -1,0 +1,1 @@
+{"version":3,"file":"button.component.d.ts","sources":["button.component.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;AACA;;;AACA","sourcesContent":["import { EventEmitter } from '@angular/core';\r\nexport declare class ButtonComponent {\r\n    buttonText: string | undefined;\r\n    buttonClicked: EventEmitter<MouseEvent>;\r\n}\r\n"]}

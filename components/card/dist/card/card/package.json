@@ -1,0 +1,23 @@
+{
+  "name": "@bit/arnobornman.demo-angular-controls.card/card",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.4",
+    "@angular/core": "^8.2.4",
+    "@angular/material": "^8.2.0",
+    "@angular/platform-browser": "^8.2.6",
+    "@angular/platform-browser-dynamic": "^8.2.6",
+    "@angular/animations": "^8.2.6",
+    "@angular/cdk": "^8.2.0"
+  },
+  "main": "../bundles/bit-arnobornman.demo-angular-controls.card-card.umd.js",
+  "module": "../fesm5/bit-arnobornman.demo-angular-controls.card-card.js",
+  "es2015": "../fesm2015/bit-arnobornman.demo-angular-controls.card-card.js",
+  "esm5": "../esm5/card/bit-arnobornman.demo-angular-controls.card-card.js",
+  "esm2015": "../esm2015/card/bit-arnobornman.demo-angular-controls.card-card.js",
+  "fesm5": "../fesm5/bit-arnobornman.demo-angular-controls.card-card.js",
+  "fesm2015": "../fesm2015/bit-arnobornman.demo-angular-controls.card-card.js",
+  "typings": "bit-arnobornman.demo-angular-controls.card-card.d.ts",
+  "metadata": "bit-arnobornman.demo-angular-controls.card-card.metadata.json",
+  "sideEffects": false
+}

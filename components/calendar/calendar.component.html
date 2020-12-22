@@ -1,0 +1,35 @@
+<div class="calendar">
+  <div class="calendar__header">
+    <button (click)="goPrev()" class="calendar__button">prev</button>
+    <span class="calendar__title">{{ currentMonth?.date | date:'MMMM' }}</span>
+    <button (click)="goNext()" class="calendar__button">next</button>
+  </div>
+
+  <div class="calendar__weekdays">
+    <div class="calendar__row">
+      <div class="calendar__col">Mån</div>
+      <div class="calendar__col">Tis</div>
+      <div class="calendar__col">Ons</div>
+      <div class="calendar__col">Tor</div>
+      <div class="calendar__col">Fre</div>
+      <div class="calendar__col">Lör</div>
+      <div class="calendar__col">Sön</div>
+    </div>
+  </div>
+
+  <div class="calendar__area" *ngIf="currentMonth">
+    <div *ngFor="let week of currentMonth.weeks" class="calendar__row">
+      <div *ngFor="let day of week" 
+           [class.calendar__day--has-activity]="day.hasActivity" 
+           [class.calendar__inactive]="!day.inMonth" 
+           class="calendar__col calendar__col--extra">
+        <button [class.calendar__button--today]="day.isToday" 
+                [class.calendar__button--selected]="isSelected(day.date)" 
+                class="calendar__button">
+          {{day.day}}
+          <div class="calendar__clickarea" (click)="value = day.date"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

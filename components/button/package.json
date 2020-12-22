@@ -1,0 +1,46 @@
+{
+  "name": "@bit/heyitsgeo.ng-semantic-ui.button",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/heyitsgeo/ng-semantic-ui/button",
+  "main": "dist/bundles/bit-button.umd.js",
+  "componentId": {
+    "scope": "heyitsgeo.ng-semantic-ui",
+    "name": "button",
+    "version": "0.0.1"
+  },
+  "dependencies": {
+    "@angular/core": "~10.1.6",
+    "@angular/common": "~10.1.6"
+  },
+  "devDependencies": {
+    "tslib": ">=1.0.0",
+    "webpack-env": ">=0.8.0",
+    "@angular/core": ">= 8.0.0",
+    "@angular/common": ">= 8.0.0"
+  },
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@10.1.5"
+    }
+  },
+  "es2015_ivy_ngcc": "__ivy_ngcc__/dist/fesm2015/bit-button.js",
+  "es2015": "dist/fesm2015/bit-button.js",
+  "esm5": "dist/esm5/bit-button.js",
+  "esm2015": "dist/esm2015/bit-button.js",
+  "fesm5": "dist/fesm5/bit-button.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/dist/fesm2015/bit-button.js",
+  "fesm2015": "dist/fesm2015/bit-button.js",
+  "module": "dist/fesm5/bit-button.js",
+  "typings": "dist/bit-button.d.ts",
+  "metadata": "dist/bit-button.metadata.json",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.1.6",
+    "fesm2015": "10.1.6",
+    "typings": "10.1.6"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

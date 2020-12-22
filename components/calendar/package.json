@@ -1,0 +1,36 @@
+{
+  "name": "@bit/understandit.zeus.calendar",
+  "version": "0.0.3",
+  "homepage": "https://bit.dev/understandit/zeus/calendar",
+  "main": "dist/bundles/bit-understandit.zeus.calendar.umd.js",
+  "componentId": {
+    "scope": "understandit.zeus",
+    "name": "calendar",
+    "version": "0.0.3"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslib": ">=1.0.0",
+    "webpack-env": ">=0.8.0",
+    "@angular/core": ">= 8.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.0.0",
+    "@angular/compiler": "^9.0.0",
+    "@angular/core": "^9.0.0",
+    "dayjs": "^1.8.23"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@9.0.0"
+    }
+  },
+  "es2015": "fesm2015/bit-understandit.zeus.calendar.js",
+  "esm5": "esm5/bit-understandit.zeus.calendar.js",
+  "esm2015": "esm2015/bit-understandit.zeus.calendar.js",
+  "fesm5": "fesm5/bit-understandit.zeus.calendar.js",
+  "fesm2015": "fesm2015/bit-understandit.zeus.calendar.js",
+  "module": "fesm5/bit-understandit.zeus.calendar.js",
+  "typings": "bit-understandit.zeus.calendar.d.ts"
+}
